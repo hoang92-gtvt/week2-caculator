@@ -1,0 +1,40 @@
+div { background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    position: fixed;
+    top:10px;
+    left:5px;
+}
+textarea {
+    background-color:wheat;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    position: absolute;
+    top:5px;
+    left:5px;
+    text-align: right;
+    font-size: 30px;
+}
+table {
+    position: absolute;
+    top:50px;
+    left:5px;
+
+}
+td {
+    background-color: white;
+    border-width: 1px;
+    width: 80px;
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+
+}
+button {
+    width: 75 px;
+    height: 65 px;
+    text-align: center;
+
+}

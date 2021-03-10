@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CaculatorSimple</title>
+    <link rel="stylesheet" href="caculatorSimple.css">
+
+</head>
+<body>
+    <div style="width: 360px; height: 400px" >
+        <textarea id="ketqua1" style="width: 340px; height: 35px" ></textarea>
+        <br/>
+        <table cellspacing="2" border="1px">
+            <tr>
+                <td ><button onclick="dis('1')">1</button></td>
+                <td ><button onclick="dis('2')">2</button></td>
+                <td ><button onclick="dis('3')">3</button></td>
+                <td ><button onclick="dis('+')">+</button></td>
+
+            </tr>
+            <tr>
+                <td ><button onclick="dis('4')">4</button></td>
+                <td ><button onclick="dis('5')">5</button></td>
+                <td ><button onclick="dis('6')">6</button></td>
+                <td ><button onclick="dis('-')">-</button></td>
+            </tr>
+            <tr>
+                <td ><button onclick="dis('7')">7</button></td>
+                <td ><button onclick="dis('8')">8</button></td>
+                <td ><button onclick="dis('9')">9</button></td>
+                <td ><button onclick="dis('*')">*</button></td>
+            </tr>
+            <tr>
+                <td ><button onclick="clr()">C</button></td>
+                <td ><button onclick="dis('0')">0</button></td>
+                <td ><button onclick="solve()">=</button></td>
+                <td ><button onclick="dis('*')">/</button></td>
+
+            </tr>
+    </table>
+    </div>
+    <script src="caculatorSimple.js"></script>
+</body>
+</html>
